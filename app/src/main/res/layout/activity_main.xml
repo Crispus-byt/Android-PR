@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#15561F"
+
+    android:background="#186D1E"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Healthy And Wellness"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:id="@+id/title"
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image2"
+        android:layout_margin="30dp"
+        android:scaleType="centerCrop"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#21904C"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textSize="20sp"
+        android:text="Healthy Recipes"
+        android:id="@+id/recipes"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textSize="20sp"
+            android:text="Nutrition Advice"
+            android:backgroundTint="#21904C"
+            android:layout_margin="30sp"
+            android:textColor="@color/white"
+            android:id="@+id/nutrition"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Meditation"
+                android:backgroundTint="#21904C"
+
+                android:id="@+id/meditation"/>
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Hydration Alert"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="#21904C"
+                    android:id="@+id/hydration"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:text="Start Excercice"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:layout_margin="30dp"
+                        android:id="@+id/excercise"
+                        android:backgroundTint="#21904C"/>
+
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            android:layout_margin="30dp"
+                            android:text="Daily Motivation"
+                            android:backgroundTint="#21904C"
+                            android:fontFamily="sans-serif-condensed-light"
+                            android:id="@+id/motivation"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+
+
