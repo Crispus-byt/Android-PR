@@ -17,7 +17,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Healthy Recipes"
+        android:text="Start Excercise"
         android:textColor="@color/white"
         android:layout_marginTop="20dp"
         android:textAlignment="center"
@@ -28,7 +28,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/image5"
+        android:src="@drawable/image1"
         android:scaleType="centerCrop"
         android:layout_margin="30dp"
         />
@@ -36,49 +36,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="🥗 1. Avocado and Egg Toast
-
-Great for: breakfast, muscle gain, healthy fats
-
-Ingredients:
-
-1 avocado 🥑
-2 eggs 🥚
-2 slices whole wheat bread
-Salt + pepper
-
-Steps:
-
-Boil or fry eggs
-Mash avocado with a little salt
-Spread on toast
-Add eggs on top
-
-👉 Super filling + boosts energy
-
-🍛 2. Chicken and Vegetable Stir Fry
-
-Great for: protein + fat loss
-
-Ingredients:
-
-Chicken breast 🍗
-Carrots 🥕
-Sukuma wiki (kale) 🥬
-Onion + garlic
-Little oil
-
-Steps:
-
-Cook chicken pieces
-Add onions + garlic
-Add vegetables
-Cook lightly (don’t overcook!)
-
-👉 High protein, low calories"
-
+        android:text="Life doesn’t always move at the pace you expect, and not every day will feel meaningful—but that doesn’t mean you’re not making progress. Every small effort, every setback, and every lesson is quietly shaping you into someone stronger and wiser. Even when things feel uncertain, keep moving forward with purpose and belief in yourself. You don’t have to have everything figured out right now; what matters is that you don’t give up. Stay consistent, stay hopeful, and trust that your hard work will eventually lead you to the life you’re striving for."
         android:textColor="@color/white"
-        android:padding="10sp"/>
+        android:textSize="19dp"
+        android:layout_margin="10dp"/>
 
 
 </LinearLayout>

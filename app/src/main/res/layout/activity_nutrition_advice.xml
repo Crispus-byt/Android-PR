@@ -29,9 +29,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/image6"
-        android:layout_margin="30dp"
+        android:layout_margin="10dp"
         android:scaleType="centerCrop"
         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proper nutrition is the foundation of a healthy and energetic life. Eating a balanced diet filled with fruits, vegetables, whole grains, lean proteins, and healthy fats provides your body with the essential nutrients it needs to function optimally. Good nutrition supports strong immunity, improves mental focus, stabilizes energy levels, and helps maintain a healthy weight. It’s important to limit processed foods, added sugars, and excessive salt while staying hydrated throughout the day. By making mindful food choices and practicing portion control, you can nourish your body, prevent chronic diseases, and feel your best every day."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:layout_marginTop="3dp"
+        android:padding="10sp"
+        />
+
 
 
 

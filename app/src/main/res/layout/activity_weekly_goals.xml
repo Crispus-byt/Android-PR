@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:backgroundTint="#15561F"
+
+    android:background="#186D1E"
+    tools:context=".Meditation">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weekly Goals"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textSize="30sp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image9" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setting effective weekly goals involves defining 3–5 specific, actionable, and measurable targets that align with long-term aspirations, ensuring they are achievable within a seven-day period. To maximize success, these goals should be written down—which increases the likelihood of accomplishment by 42%—and framed positively, such as 'run for 30 minutes three times this week' rather than 'exercise more'. It is crucial to review these goals weekly, using Monday to set priorities and a Friday analysis to celebrate wins, address obstacles, and plan for the next week. By breaking larger objectives into smaller 'big rocks' for the week, you can reduce overwhelming to-do lists, maintain focus, and build consistent momentum.
+
+    Examples of Weekly Goals:
+    Professional: 'Complete the draft of the project proposal by Thursday' or 'Reach out to one new industry contact for a coffee chat'.
+    Health: 'Exercise for at least 30 minutes, three times this week' or 'Prep five healthy, home-cooked breakfasts'.
+    Personal: 'Read for 1 hour on Sunday' or 'Disconnect from screens for one hour before bed each night'.
+
+
+    Key Strategies for Success:
+    Time-Block: Schedule specific times in your calendar to work on each goal to ensure they get done.
+    Be Realistic: Avoid overcommitting by aligning goals with your current capacity to prevent burnout.
+    Reflect: Regularly assess what worked well and what obstacles arose to adjust your approach for the following week"
+
+        android:textColor="@color/white"
+
+        android:padding="15sp"
+
+
+
+
+        />
+
+
+
+</LinearLayout>

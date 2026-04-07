@@ -12,6 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WellnessApp">
         <activity
+            android:name=".ProgressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WeeklyGoalsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MotivationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExcerciseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HydrationActivity"
+            android:exported="false" />
+        <activity
             android:name=".Meditation"
             android:exported="false" />
         <activity

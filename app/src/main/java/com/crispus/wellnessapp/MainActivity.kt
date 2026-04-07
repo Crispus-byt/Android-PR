@@ -26,38 +26,85 @@ class MainActivity : AppCompatActivity() {
 
 //        variable to store butttons
 
-        val recipe=findViewById<Button>(R.id.recipes)
+        val recipe = findViewById<Button>(R.id.recipes)
 
 //        set onclick listener
 
         recipe.setOnClickListener {
 //            writing intents
-            val recipeIntent= Intent(applicationContext, HealthyRecipes::class.java)
+            val recipeIntent = Intent(applicationContext, HealthyRecipes::class.java)
 
             startActivity(recipeIntent)
         }
 //
 //        meditation intent
 
-        val meditation=findViewById<Button>(R.id.meditation)
+        val meditation = findViewById<Button>(R.id.meditation)
 
         meditation.setOnClickListener {
 
-            val meditationIntent= Intent(applicationContext,Meditation::class.java)
+            val meditationIntent = Intent(applicationContext, Meditation::class.java)
 
             startActivity(meditationIntent)
         }
 
 //        nutrition intent
 
-        val nutrition=findViewById<Button>(R.id.nutrition)
+        val nutrition = findViewById<Button>(R.id.nutrition)
 
 
         nutrition.setOnClickListener {
 
-            val nutritionIntent=Intent(applicationContext, NutritionAdvice::class.java)
+            val nutritionIntent = Intent(applicationContext, NutritionAdvice::class.java)
 
             startActivity(nutritionIntent)
+        }
+
+        val excercise = findViewById<Button>(R.id.excercise)
+
+        excercise.setOnClickListener {
+            val excerciseIntent = Intent(applicationContext, ExcerciseActivity::class.java)
+
+            startActivity(excerciseIntent)
+
+
+        }
+
+        val progress = findViewById<Button>(R.id.progress)
+
+        progress.setOnClickListener {
+
+            val progressIntent = Intent(applicationContext, ProgressActivity::class.java)
+
+            startActivity(progressIntent)
+        }
+
+        val goals = findViewById<Button>(R.id.goals)
+
+        goals.setOnClickListener {
+
+            val goalsIntent = Intent(applicationContext, WeeklyGoalsActivity::class.java)
+
+            startActivity(goalsIntent)
+        }
+
+       val hydration=findViewById<Button>(R.id.hydration)
+
+        hydration.setOnClickListener {
+
+            val hydrationIntent=Intent(applicationContext, HydrationActivity::class.java)
+
+            startActivity(hydrationIntent)
+
+        }
+
+        val motivation= findViewById<Button>(R.id.motivation)
+
+        motivation.setOnClickListener {
+
+            val motivationIntent = Intent(applicationContext, MotivationActivity::class.java)
+
+            startActivity(motivationIntent)
         }
 
 

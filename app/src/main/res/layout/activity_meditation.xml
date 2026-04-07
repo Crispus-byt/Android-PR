@@ -30,7 +30,34 @@
         android:layout_height="200dp"
         android:src="@drawable/image3"
         android:scaleType="centerCrop"
-        android:layout_margin="30dp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meditation is a practice that allows the mind and body to reconnect, relax, and recharge.
+
+Benefits of Meditation:
+- Reduces stress and anxiety
+- Improves concentration and focus
+- Enhances emotional well-being
+- Increases self-awareness and mindfulness
+- Promotes inner peace and balance
+
+Tips to Get Started:
+- Find a quiet, comfortable space
+- Focus on your breath or a simple mantra
+- Start with just 5–10 minutes daily
+- Be patient and consistent; results grow over time
+
+Even a short daily meditation routine can make a profound difference in your overall health, clarity, and happiness."
+        android:textColor="@color/white"
+        android:layout_marginTop="3dp"
+        android:padding="10sp"
+
+        android:fontFamily="sans-serif-condensed-light"
+        android:textSize="20sp"
         />
 
 

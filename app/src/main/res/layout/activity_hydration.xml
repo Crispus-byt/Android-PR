@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hydration"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:backgroundTint="#15561f"
+
+    android:background="#186D1E"
+    tools:context=".Meditation">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hydration"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textSize="30sp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/image7"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+Hydration is the process of replacing water in the body, which is essential for maintaining nearly all physiological functions. Since the human body is composed of approximately 50-75% water and
+cannot store it, daily replenishment is necessary to support blood circulation, nutrient transport, temperature regulation, and waste removal. Proper hydration is critical for keeping joints lubricated, maintaining skin elasticity, and aiding digestion. Even mild dehydration—defined as a 1-3% loss of body weight—can lead to negative symptoms such as headaches, fatigue, dizziness, and poor concentration. While thirst is a primary signal to drink, it is often a late indicator of dehydration, making it important to drink fluids regularly throughout the day. The best source of hydration is water, though other drinks like milk, tea, and coffee, along with water-rich foods such as fruits and vegetables, contribute to daily fluid intake.
+
+Key Aspects of"
+
+        android:textColor="@color/white"
+        android:padding="10sp"
+
+
+
+        />
+
+
+</LinearLayout>

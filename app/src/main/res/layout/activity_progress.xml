@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:backgroundTint="#15561F"
+
+    android:background="#186D1E"
+    tools:context=".Meditation">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daily Progress"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textSize="30sp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/image4"
+        android:scaleType="centerCrop"
+        android:layout_margin="8sp"
+
+        />
+
+    <TextView
+        android:layout_width="389dp"
+        android:layout_height="389dp"
+        android:layout_margin="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Daily progress in health is driven by consistent lifestyle habits, including regular physical activity, proper nutrition, and adequate sleep. Such daily actions, from exercise to stress reduction, play a profound role in both short-term well-being and long-term prevention of chronic diseases like diabetes and cardiovascular disease. Tracking daily progress through, for instance, a 150-minute weekly moderate-intensity exercise goal—such as brisk walking—is often recommended to foster mental and physical benefits.
+PubMed Central (PMC) (.gov)
+PubMed Central (PMC) (.gov)
+Key Aspects of Daily Health Improvement
+Physical Activity:
+ Regular daily activity reduces the risk of non-communicable diseases (NCDs), improves brain health, and aids in weight management.
+Nutrition: Consuming a diet rich in fruits, vegetables, and whole grains, while limiting processed foods, is critical for daily energy and managing NCD risks.
+Mental Health:
+Daily management of stress, through methods like exercise, mindfulness, or adequate sleep, is essential to combat anxiety and depression.
+PubMed Central (PMC) (.gov)
+PubMed Central (PMC) (.gov)
+Monitoring and Accountability
+Personal Tracking: Utilizing tools to monitor daily habits helps sustain motivation and track progress.
+Healthcare Documentation: Daily progress notes in clinical settings follow structures like the SOAP format (Subjective, Objective, Assessment, Plan) to track a patient’s health status, responses to treatment, and continued care plans.
+Workplace/Settings-Based Approach: Implementing healthy habits in daily environments, such as schools and workplaces, has been shown to improve overall wellbeing.
+PubMed Central (PMC) (.gov)
+PubMed Central (PMC) (.gov)
+ +2
+Global and Individual Context
+Health as a Right: The WHO defines health as a state of complete physical, mental, and social well-being, rather than just the absence of disease.
+Small Steps: Daily, small, incremental changes in behavior can result in significant long-term health improvements and prevent disease progression.
+In conclusion, consistent daily choices related to lifestyle medicine and personal hygiene form the foundation of a healthy life, helping to manage stress and prevent the development of chronic diseases.
+1
+"
+
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        />
+
+
+</LinearLayout>
