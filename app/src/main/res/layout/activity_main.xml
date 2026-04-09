@@ -36,8 +36,19 @@
         android:scaleType="centerCrop"/>
 
 
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            app:adSize="BANNER"
 
-    <Button
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111" />
+
+
+
+
+
+        <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
